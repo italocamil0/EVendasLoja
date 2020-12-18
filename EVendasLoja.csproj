@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EVendas.Domain\EVendas.Domain.csproj" />
+    <ProjectReference Include="..\EVendas.Mapper\EVendas.Mapper.csproj" />
+    <ProjectReference Include="..\eVendas.Service\EVendas.Service.csproj" />
+    <ProjectReference Include="..\EVendas.ViewModel\EVendas.ViewModel.csproj" />
+  </ItemGroup>
+
+
+</Project>
